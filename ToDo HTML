@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	
+</head>
+<body>
+
+	<div id = "container">
+		
+		<h1>To - Do List <i class="fa fa-plus"></i></h1>
+		<input type="text" name="new" placeholder="Add New To Do">
+		<ul>
+			<li><span><i class="fa fa-trash"></i></span>Eat</li>
+			<li><span><i class="fa fa-trash"></i></span>Sleep </li>
+			<li><span><i class="fa fa-trash"></i></span>Repeat</li>
+		</ul>
+
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="todo.js"></script>
+
+
+</body>
+</html>
